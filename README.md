@@ -32,7 +32,7 @@ The goal of this project was to recreate a static comp laid out in the project s
 
 ## Spec Recreation
 
-### Desktop:
+### Desktop
 ![](https://media.giphy.com/media/iWvv8flaCjs6rTNP6T/giphy.gif)
 
 ### Responsive design
