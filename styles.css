@@ -94,27 +94,27 @@
 }
 
 .three {
-  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/c/c6/Princess_Mononoke.jpg/revision/latest/scale-to-width-down/1000?cb=20181106091921);
+  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/c/c6/Princess_Mononoke.jpg);
 }
 
 .four {
-  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/d/db/My_Neighbor_Totoro.jpg/revision/latest/scale-to-width-down/1000?cb=20181106050026);
+  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/d/db/My_Neighbor_Totoro.jpg);
 }
 
 .five {
-  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/0/08/Howl%27s_Moving_Castle.jpg/revision/latest/scale-to-width-down/863?cb=20200828034953);
+  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/0/08/Howl%27s_Moving_Castle.jpg);
 }
 
 .six {
-  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/6/64/TakaniPoster1.jpg/revision/latest/scale-to-width-down/415?cb=20201019025103);
+  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/6/64/TakaniPoster1.jpg);
 }
 
 .seven {
-  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/4/48/Kiki%27s_Delivery_Service_%282%29.jpg/revision/latest/scale-to-width-down/1000?cb=20181106053757);
+  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/4/48/Kiki%27s_Delivery_Service_%282%29.jpg);
 }
 
 .eight {
-  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/c/c1/Castle_in_the_Sky.jpg/revision/latest/scale-to-width-down/1000?cb=20181106050528);
+  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/c/c1/Castle_in_the_Sky.jpg);
 }
 
 @media screen and (max-width: 55em) {
