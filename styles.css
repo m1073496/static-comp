@@ -1,15 +1,22 @@
 .navigation-container {
-  background-color: #ffcbf2;
-  display: flex;
-  justify-content: flex-end;
+  background-color: #f9c6c9;
   border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.nav-bar {
+.nav-bar-left {
   padding: 20px;
   display: flex;
-  justify-content:space-between;
-  align-items: center;
+  font-size: 3vh;
+}
+
+.nav-bar-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
   font-size: 3vh;
 }
 
@@ -22,8 +29,6 @@
 .title {
   padding: 20px;
   font-size: 40px;
-  display: flex;
-  justify-content: center;
 }
 
 .main {
@@ -48,6 +53,38 @@
   background-position: center;
 }
 
+.cards:hover {
+  border: 3px solid #ff7a59;
+  box-shadow: 10px 10px 50px #ff7a59;
+  color: #ff7a59;
+}
+
+.movie-container {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, 20fr));
+  grid-gap: 275px;
+}
+
+.numbers {
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  border: white;
+  border-style: solid;
+  border-radius: 70px;
+}
+
+.movie-text {
+  height: 50px;
+  background-color: white;
+  opacity: 90%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .one {
   background-image: url(https://www.ghibli.jp/images/ponyo.jpg);
 }
@@ -61,19 +98,19 @@
 }
 
 .four {
-  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/0/08/Howl%27s_Moving_Castle.jpg/revision/latest/scale-to-width-down/863?cb=20200828034953);
-}
-
-.five {
   background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/d/db/My_Neighbor_Totoro.jpg/revision/latest/scale-to-width-down/1000?cb=20181106050026);
 }
 
+.five {
+  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/0/08/Howl%27s_Moving_Castle.jpg/revision/latest/scale-to-width-down/863?cb=20200828034953);
+}
+
 .six {
-  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/4/48/Kiki%27s_Delivery_Service_%282%29.jpg/revision/latest/scale-to-width-down/1000?cb=20181106053757);
+  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/6/64/TakaniPoster1.jpg/revision/latest/scale-to-width-down/415?cb=20201019025103);
 }
 
 .seven {
-  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/6/64/TakaniPoster1.jpg/revision/latest/scale-to-width-down/415?cb=20201019025103);
+  background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/4/48/Kiki%27s_Delivery_Service_%282%29.jpg/revision/latest/scale-to-width-down/1000?cb=20181106053757);
 }
 
 .eight {
@@ -81,9 +118,26 @@
 }
 
 @media screen and (max-width: 55em) {
+  .nav-bar-right {
+    font-size: 2vh;
+  }
   .cards {
     margin-top: 10px;
     width: 150px;
     height: 250px;
+  }
+
+  .movie-container {
+    grid-gap: 160px;
+  }
+
+  .movie-text {
+    height: 50px;
+    background-color: white;
+    opacity: 90%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
