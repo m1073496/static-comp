@@ -7,7 +7,7 @@ A [Front-End Project](https://frontend.turing.io/projects/module-1/m1-static-com
 ## Overview
 
 This is a Turing School of Software and Design - Module 2 solo project.
-The goal of this project was to recreate a static comp laid out in the project spec by implementing CSS Grid, making the app responsive, and clearing the default broswer styling. 
+The goal of this project was to recreate a static comp laid out in the project spec by implementing CSS Grid, making the app responsive, and clearing the default broswer styling. Some creative license was permitted for this project.
 
 
 ## Learning Goals
