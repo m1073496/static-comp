@@ -1,7 +1,8 @@
 .navigation-container {
-  background-color: #d8e2dc;
+  background-color: #ffcbf2;
   display: flex;
   justify-content: flex-end;
+  border-radius: 10px;
 }
 
 .nav-bar {
@@ -9,7 +10,7 @@
   display: flex;
   justify-content:space-between;
   align-items: center;
-  border-radius: 5px;
+  font-size: 3vh;
 }
 
 .nav-left,
@@ -26,85 +27,63 @@
 }
 
 .main {
-  background-color: #ffcad4;
+  background-color: #d0d1ff;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 70px;
-    border-radius: 5px;
+  border-radius: 5px;
+  justify-items: center;
 }
 
 .cards {
-  height: 250px;
+  display: inline-block;
+  width: 175px;
+  height: 400px;
   padding: 50px;
   margin: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: white;
-  box-shadow: 0px 0px 40px #9d8189;
+  box-shadow: 0px 0px 50px #d8bbff;
   border-radius: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .one {
   background-image: url(https://www.ghibli.jp/images/ponyo.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100vh;
 }
 
 .two {
   background-image: url(https://www.ghibli.jp/images/chihiro.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100vh;
 }
 
 .three {
   background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/c/c6/Princess_Mononoke.jpg/revision/latest/scale-to-width-down/1000?cb=20181106091921);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100vh;
 }
 
 .four {
   background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/0/08/Howl%27s_Moving_Castle.jpg/revision/latest/scale-to-width-down/863?cb=20200828034953);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100vh;
 }
 
 .five {
   background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/d/db/My_Neighbor_Totoro.jpg/revision/latest/scale-to-width-down/1000?cb=20181106050026);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100vh;
 }
 
 .six {
   background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/4/48/Kiki%27s_Delivery_Service_%282%29.jpg/revision/latest/scale-to-width-down/1000?cb=20181106053757);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100vh;
 }
 
 .seven {
   background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/6/64/TakaniPoster1.jpg/revision/latest/scale-to-width-down/415?cb=20201019025103);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100vh;
 }
 
 .eight {
   background-image: url(https://static.wikia.nocookie.net/studio-ghibli/images/c/c1/Castle_in_the_Sky.jpg/revision/latest/scale-to-width-down/1000?cb=20181106050528);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100vh;
+}
+
+@media screen and (max-width: 55em) {
+  .cards {
+    margin-top: 10px;
+    width: 150px;
+    height: 250px;
+  }
 }
