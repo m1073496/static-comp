@@ -7,14 +7,14 @@ A [Front-End Project](https://frontend.turing.io/projects/module-1/m1-static-com
 ## Overview
 
 This is a Turing School of Software and Design - Module 2 solo project.
-The goal of this project was to recreate a static comp laid out in the project spec by implementing CSS Grid, making the app responsive, and clearing the default broswer styling. Some creative license was permitted for this project.
+The goal of this project was to get a feel for CSS Grid, make the app responsive to different screen sizes, and to implement a reset CSS stylesheet to prevent styling inconsistences between varying browsers.
 
 
 ## Learning Goals
 
 * Learn and implement CSS Grid
 * Learn and implement responsive design techniques
-* Learn and implement reset file to reset browser default styling
+* Learn and implement a reset file to clear browser default styling
 
 ## Technologies
 
@@ -25,12 +25,6 @@ The goal of this project was to recreate a static comp laid out in the project s
 
 ---
 
-## Project Spec
-
-<img width="877" alt="Screen Shot 2021-02-21 at 1 24 03 PM" src="https://user-images.githubusercontent.com/73088654/108637487-23155500-7448-11eb-87a6-52b993021d70.png">
-
-
-## Spec Recreation
 
 ### Desktop
 ![](https://media.giphy.com/media/kKwj2ZvRGnopEGUFVD/giphy.gif)
@@ -41,19 +35,19 @@ The goal of this project was to recreate a static comp laid out in the project s
 ---
 ## Challenges
 
-* There was a lot to learn and implement for this project, so the comp recreation suffered
+* The styling needs polishing
 * CSS Grid was challenging
 * Images didn't want to cooperate
 
 ---
 ## Wins
 
-* I learned more about CSS Grid
-* I learned more about implementing responsiveness
-* I learned about resetting default browser styling
+* I sucessfully implemented CSS Grid
+* The app is completely responsive
+* The reset file implemented clears default styling in Chrome, Safari, and Mozilla browsers
 
 ---
 ## Future Iterations
 
 * Implement icons
-* Restructure the layout to more accurately capture the comp
+* Polish styling
